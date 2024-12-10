@@ -61,7 +61,7 @@ class Redis
       "bitpos"           => [ :first ],
       "blpop"            => [ :exclude_last, :first ],
       "brpop"            => [ :exclude_last, :first ],
-      "brpoplpush"       => [ :exclude_last ],
+      "brpoplpush"       => [ :exclude_options ],
       "bzpopmin"         => [ :first ],
       "bzpopmax"         => [ :first ],
       "debug"            => [ :exclude_first ],
